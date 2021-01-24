@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2fd406b-186d-4b7f-a434-cd4bf17e3291" name="Default Changelist" comment="test">
-      <change beforePath="$PROJECT_DIR$/Task3/Task3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,10 +10,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/Task1" value="Task1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Task1" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="Task3.0" />
+                    <option name="lastUsedInstant" value="1611491790" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="Task3" />
+                    <option name="lastUsedInstant" value="1611491789" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/Task3" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="Task3" />
+                    <option name="lastUsedInstant" value="1611493743" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="Task1" />
+                    <option name="lastUsedInstant" value="1611490316" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="Task2" />
+                    <option name="lastUsedInstant" value="1611490315" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/Task1" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="1nSnGDVtW82HiWLmGIRbGwr9u74" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,7 +74,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="F:\AngularTask\Task2\node_modules\typescript\lib" />
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
@@ -71,6 +121,9 @@
       <workItem from="1611392271102" duration="43000" />
       <workItem from="1611409690442" duration="651000" />
       <workItem from="1611412722414" duration="1623000" />
+      <workItem from="1611489756628" duration="2326000" />
+      <workItem from="1611493649317" duration="401000" />
+      <workItem from="1611494193787" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1611409820095</created>
@@ -79,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611409820095</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1611489902924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611489902924</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
