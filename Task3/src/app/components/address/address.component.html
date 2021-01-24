@@ -1,0 +1,8 @@
+<div *ngFor="let u of users users">
+  <div *ngIf="this.u.id == addressId.id">
+    {{u.address.city}}
+    {{u.address.street}}
+    {{u.address.number}}
+  </div>
+</div>
+
