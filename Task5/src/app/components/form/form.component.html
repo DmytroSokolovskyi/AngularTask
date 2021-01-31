@@ -1,0 +1,17 @@
+<form [formGroup]="myForm" (ngSubmit)="pushUser()">
+  <div>
+    <input [formControl]="name">
+    <div *ngIf="name.errors?.required" [class.errors]="true">Write your name</div>
+    <div *ngIf="name.errors?.minlength" [class.errors]="true">your name is too short</div>
+  </div>
+  <div>
+    <input [formControl]="age">
+  </div>
+  <div>
+    <input type="checkbox" [formControl]="status">Status
+  </div>
+  <button [disabled]="myForm.invalid">Save</button>
+
+</form>
+
+<app-user *ngFor="let u of users" [user]="u"></app-user>
