@@ -1,0 +1,8 @@
+<div [class.myuser]="true">
+  {{user.id}}
+  {{user.name}}
+  <button (click)="getUserPost(user.id)">Get Post</button>
+</div>
+<h3>
+  {{post?.id}} {{post?.body}}
+</h3>

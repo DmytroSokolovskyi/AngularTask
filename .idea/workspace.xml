@@ -1,19 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2fd406b-186d-4b7f-a434-cd4bf17e3291" name="Default Changelist" comment="test">
-      <change beforePath="$PROJECT_DIR$/Task3/Task3.iml" beforeDir="false" />
+    <list default="true" id="f2fd406b-186d-4b7f-a434-cd4bf17e3291" name="Default Changelist" comment="task3">
+      <change afterPath="$PROJECT_DIR$/Classwork2/src/app/components/models/post.models.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classwork2/src/app/components/models/user.models.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2/src/app/components/models/user.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Task1" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/Task1" value="Task1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="Task3.0" />
+                    <option name="lastUsedInstant" value="1611491790" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="Task3" />
+                    <option name="lastUsedInstant" value="1611491789" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/Task3" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="classwork2" />
+                    <option name="lastUsedInstant" value="1611503079" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="Task1" />
+                    <option name="lastUsedInstant" value="1611495227" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="Task3.0" />
+                    <option name="lastUsedInstant" value="1611494556" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="Task3" />
+                    <option name="lastUsedInstant" value="1611493743" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="Task2" />
+                    <option name="lastUsedInstant" value="1611490315" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/Task1" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="classwork2" />
+                    <option name="lastUsedInstant" value="1611503838" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="Task3" />
+                    <option name="lastUsedInstant" value="1611495087" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1611495086" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="1nSnGDVtW82HiWLmGIRbGwr9u74" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,8 +113,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="F:\AngularTask\Task2\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="F:\AngularTask\Classwork2\node_modules\typescript\lib" />
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="E2E Tests (Angular)" type="JavaScriptTestRunnerProtractor">
@@ -71,6 +160,10 @@
       <workItem from="1611392271102" duration="43000" />
       <workItem from="1611409690442" duration="651000" />
       <workItem from="1611412722414" duration="1623000" />
+      <workItem from="1611489756628" duration="2326000" />
+      <workItem from="1611493649317" duration="401000" />
+      <workItem from="1611494193787" duration="3580000" />
+      <workItem from="1611515820854" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1611409820095</created>
@@ -79,14 +172,65 @@
       <option name="project" value="LOCAL" />
       <updated>1611409820095</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1611489902924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611489902924</updated>
+    </task>
+    <task id="LOCAL-00003" summary="task3">
+      <created>1611494278766</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611494278766</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="range">
+                    <value>
+                      <list>
+                        <option value="Task3..origin/Task3" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/Task1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="task3" />
+    <option name="LAST_COMMIT_MESSAGE" value="task3" />
   </component>
 </project>
