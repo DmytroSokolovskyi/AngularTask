@@ -1,0 +1,4 @@
+<div *ngIf="!peoples">
+ <app-loading></app-loading>
+</div>
+<app-people-one *ngFor=" let p of peoples" [peoplone]="p"></app-people-one>
