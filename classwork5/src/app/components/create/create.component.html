@@ -1,0 +1,21 @@
+<form [formGroup]="myForm" (ngSubmit)="createCar()">
+  <div>
+    <label>id</label>
+    <input [formControl]="id">
+  </div>
+  <div>
+    <label>brand</label>
+    <input [formControl]="brand">
+  </div>
+  <div>
+    <label>model</label>
+    <input [formControl]="model">
+  </div>
+  <div>
+    <label>year</label>
+    <input [formControl]="year">
+  </div>
+
+  <button> Send </button>
+
+</form>
