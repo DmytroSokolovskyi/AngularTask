@@ -6,18 +6,9 @@ import {PageNotFoundComponent} from './components/page-not-found/page-not-found.
 const routes: Routes = [
   {
     path: '', component: MainComponent, children: [
-      // {
-      //   path: '', redirectTo: 'people', pathMatch: 'full'
-      // },
       {
         path: 'people', loadChildren: () => import('./modules/people/people.module').then(m => m.PeopleModule)
       }
-      // {
-      //   path: 'planets', component: PlanetsComponent
-      // },
-      // {
-      //   path: 'starships', component: StarshipsComponent
-      // },
     ]
   },
   {
