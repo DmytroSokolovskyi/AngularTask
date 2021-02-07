@@ -1,0 +1,19 @@
+<div [class.header]="true">
+  <div>
+    <button (click)="gotoPeople()">People</button>
+    <button (click)="gotoPlanets()">Planets</button>
+    <button (click)="gotoStarships()">Starships</button>
+  </div>
+  <div [class.navigate]="true">
+      <button [disabled] = "valueB()" (click)="minusValue()">back</button>
+    <div [classList]="'state'">{{someValue}}</div>
+    <button (click)="plussValue()">next</button>
+  </div>
+  <div>
+    <button (click)="gotoAll()">ALL</button>
+  </div>
+</div>
+
+<div [class.body]="true">
+  <router-outlet></router-outlet>
+</div>

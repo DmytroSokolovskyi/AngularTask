@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  background: #c2c3c4;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+button {
+  background: #bfddf8;
+}
+.body {
+  background: azure;
+}
+.state {
+color: #df7644;
+  font-size: 30px;
+  margin: 15px;
+  border: 1px solid black;
+
+}
+.navigate {
+  display: flex;
+  width: 200px;
+  align-items: center;
+}

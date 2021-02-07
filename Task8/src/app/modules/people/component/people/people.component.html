@@ -1,0 +1,13 @@
+<div>
+  <div>{{peoples?.name}}</div>
+  <div>{{peoples?.height}}</div>
+  <div>{{peoples?.mass}}</div>
+  <div>{{peoples?.hair_color}}</div>
+  <div>{{peoples?.eye_color}}</div>
+  <div>{{peoples?.birth_year}}</div>
+  <div>{{peoples?.gender}}</div>
+  <div>{{peoples?.homeworld}}</div>
+  <div>Film:
+    <app-film *ngFor="let film of peoples?.films" [film]="film"></app-film>
+  </div>
+</div>
