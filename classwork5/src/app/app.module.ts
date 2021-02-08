@@ -8,6 +8,7 @@ import { MainComponent } from './components/main/main.component';
 import { CarsComponent } from './components/cars/cars.component';
 import { CreateComponent } from './components/create/create.component';
 import {ReactiveFormsModule} from '@angular/forms';
+import { CarComponent } from './components/car/car.component';
 
 const routes = [
   {
@@ -28,7 +29,8 @@ const routes = [
     AppComponent,
     MainComponent,
     CarsComponent,
-    CreateComponent
+    CreateComponent,
+    CarComponent
   ],
   imports: [
     BrowserModule,

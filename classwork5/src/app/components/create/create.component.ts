@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {ICar} from '../../models';
 import {FormControl, FormGroup} from '@angular/forms';
+import {Router} from '@angular/router';
 import {CarsService} from '../../services';
 
 @Component({
@@ -22,11 +22,12 @@ export class CreateComponent implements OnInit {
     year: this.year,
   });
 
-  constructor(private carsService: CarsService) {
+  constructor(private carsService: CarsService, private router: Router) {
   }
 
   createCar(): void {
     this.carsService.createcars(this.myForm.value).subscribe(value => console.log(value));
+    this.router.navigate(['cars']);
   }
 
   ngOnInit(): void {
