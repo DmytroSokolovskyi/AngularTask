@@ -1,0 +1,6 @@
+<button (click)="dayminus()">-</button>
+
+<div>{{date}}</div>
+<hr>
+
+<app-money *ngFor="let m of moneyKyrs" [money]="m"></app-money>
